@@ -1,0 +1,144 @@
+body {
+  background: url("https://31.media.tumblr.com/0d0c47b8ecf09043373fd87c9320b0d6/tumblr_mzlond39Zi1siisoko1_r1_500.gif")
+    no-repeat center center fixed;
+  background-size: cover;
+}
+
+p1 {
+  color: white;
+  font-size: 100%;
+  text-shadow: 0 0 9px black;
+}
+p {
+  color: yellow;
+  font-size: 180%;
+  text-shadow: 0 0 7px black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.row {
+  margin: 10px -16px;
+}
+
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  display: none;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+.show {
+  display: block;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+.right {
+  float: right;
+  width: 650px;
+}
+img {
+  position: relative;
+  width: 400px;
+  height: 200px;
+}
+
+div {
+  color: black;
+  text-shadow: 0 0 7px white;
+}
+div.fixed {
+  position: fixed;
+  width: 50%;
+  bottom: 10px;
+}
+a {
+  color: white;
+}
+.button {
+  position: relative;
+  background-color: #4caf50;
+  border: none;
+  font-size: 28px;
+  color: #ffffff;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.button:after {
+  content: "";
+  background: #f1f1f1;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s;
+}
+
+.button:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s;
+}
+aside {
+  text-align: center;
+}
+
+p.ex2 {
+  font-size: 50px;
+}
+h.ex2 {
+  font-size: 25px;
+}
