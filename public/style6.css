@@ -1,0 +1,41 @@
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://www.scienceworld.ca/wp-content/uploads/images/straight_curly.jpg");
+  height: 100%;
+}
+div.fixed {
+  position: fixed;
+  width: 50%;
+  bottom: 10px;
+}
+div {
+  color: white;
+}
+a {
+  color: white;
+}
+h1 {
+  color: yellow;
+  text-shadow: 0 0 9px black;
+}
+aside {
+  text-align: center;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
