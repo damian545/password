@@ -24,7 +24,7 @@ app.use(
 app.use(passport.initialize());
 app.use(passport.session());
 
-app.get("/", (req, res) => {
+app.get("/index", (req, res) => {
   res.render("index.ejs");
 });
 
@@ -32,7 +32,7 @@ app.get("/login", (req, res) => {
   res.render("login.ejs");
 });
 
-app.get("/register", (req, res) => {
+app.get("/", (req, res) => {
   res.render("register.ejs");
 });
 
@@ -49,6 +49,8 @@ app.post("/register", async (req, res) => {
   } catch {
     res.redirect("/register");
   }
+  app.use(express.static("public"));
+
   console.log(users);
 });
 
