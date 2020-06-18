@@ -1,0 +1,23 @@
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://api.time.com/wp-content/uploads/2014/02/170063128.jpg");
+  height: 100%;
+}
+div.fixed {
+  position: fixed;
+  width: 50%;
+  bottom: 10px;
+}
+div {
+  color: black;
+}
+a {
+  color: white;
+}
+h1 {
+  color: white;
+}
+aside {
+  text-align: center;
+}

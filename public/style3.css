@@ -1,0 +1,23 @@
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/tempcolor-1588020609.png?crop=1xw:0.7490689013035382xh;center,top&resize=1200:*");
+  height: 100%;
+}
+div.fixed {
+  position: fixed;
+  width: 50%;
+  bottom: 10px;
+}
+div {
+  color: white;
+}
+a {
+  color: white;
+}
+h1 {
+  color: white;
+}
+aside {
+  text-align: center;
+}
